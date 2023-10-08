@@ -1,0 +1,238 @@
+.mainhead {
+  /* background-color: rgb(210, 224, 223); */
+  /* background-image: url("background.jpg"); */
+  /* background-color: rgba(200, 228, 228, 0.75); */
+  background: linear-gradient(
+    to right,
+    rgba(182, 224, 224, 0.75),
+    rgba(239, 248, 198, 0.75)
+  );
+}
+.cont {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/edc3ab78364175.5ca3009cb66a0.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  padding: 150px;
+  /* box-shadow: 10px 10px rgba(127, 196, 196, 0.75); */
+  grid-column: 1 / span 2;
+  opacity: 0.8;
+  margin-bottom: 150px;
+  width: 20%;
+  float: right;
+  position: relative;
+  top: 100px;
+}
+.tophead1 {
+  font-style: sans-serif;
+  width: 75%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.toppara {
+  width: 65%;
+  font-size: 20px;
+  line-height: 40px;
+  margin-left: 10%;
+  background-size: 50%;
+}
+.topdiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+.topbutt {
+  width: 140px;
+  padding: 5px;
+  border-radius: 12px;
+  cursor: grab;
+  color: rgb(221, 225, 228);
+  background-color: rgb(67, 156, 55);
+  margin-top: 5%;
+  margin-left: 10%;
+  font-size: 15px;
+}
+.topbutt:link {
+  background-color: rgb(67, 156, 55);
+}
+.topbutt:visited {
+  background-color: rgb(67, 156, 55);
+}
+.topbutt:hover {
+  background-color: rgb(231, 233, 231);
+  color: black;
+}
+.topimg {
+  border-radius: 12px;
+  opacity: 1;
+  margin-left: 95px;
+  /* margin-top: 5%; */
+  background-size: 50%;
+  position: absolute;
+}
+.secondmain {
+  display: inline-block;
+  /* display: flex;
+  padding: 0%;
+  margin: 0;
+  justify-content: center;
+  align-content: center;
+  height: 350px; */
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.secondh2 {
+  padding-bottom: 0;
+  align-self: center;
+  font-size: 30px;
+  font-style: sans-serif;
+}
+.secondmain p1 {
+  display: inline-block;
+  line-height: 28px;
+  margin-bottom: 10px;
+  width: 85%;
+  font-size: 18px;
+}
+.secondmain h2 {
+  font-size: 30px;
+}
+.thirdmain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 12px;
+  border-width: 55%;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(67, 156, 55, 0.6);
+  margin-top: 100px;
+}
+.thirdimg {
+  margin: 20px;
+}
+.thirdbody {
+  padding-right: 50px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+.fourthmain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
+  margin-top: 50px;
+}
+.fourthmain h2 {
+  padding-left: 0;
+  margin-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  padding-top: 10px;
+}
+.fourthmain ul {
+  line-height: 40px;
+  font-size: 20px;
+  list-style: none;
+  visibility: inherit;
+}
+.fourthh1 {
+  text-align: center;
+  margin-top: 110px;
+  font-style: sans-serif;
+}
+.first {
+  border: 4px solid rgba(200, 228, 228, 0.75);
+  text-align: center;
+  border-radius: 12px;
+  border-width: 10%;
+  font-family: "Rubik", sans-serif;
+}
+.second {
+  border: 5px solid rgba(200, 228, 228, 0.75);
+  text-align: center;
+  padding-left: 0;
+  border-radius: 12px;
+  font-family: "Rubik", sans-serif;
+}
+.res {
+  margin-top: 78px;
+}
+.third {
+  border: 5px solid rgba(200, 228, 228, 0.75);
+  text-align: center;
+  border-radius: 16px;
+  font-family: "Rubik", sans-serif;
+}
+.foot {
+  display: flex;
+  grid-template-columns: 1fr 1 fr;
+  gap: 62%;
+}
+.foot h3 {
+  padding-left: 10px;
+}
+.butt1 {
+  background-color: rgb(67, 156, 55);
+  cursor: grab;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  width: 60px;
+}
+.butt1:link {
+  background-color: rgb(67, 156, 55);
+}
+.butt1:visited {
+  background-color: rgb(67, 156, 55);
+}
+.butt1:hover {
+  background-color: rgb(231, 233, 231);
+  color: black;
+}
+.list {
+  text-align: left;
+}
+.contact {
+  font-size: 18px;
+  border: 5px solid rgb(159, 200, 110);
+  border-radius: 12px;
+  background-color: rgba(117, 164, 110, 0.75);
+  margin-top: 110px;
+}
+.contacts {
+  display: flex;
+  gap: 780px;
+}
+.contact h2 {
+  text-align: center;
+  font-size: 35px;
+}
+.contact p1 {
+  padding-left: 50px;
+  font-size: 22px;
+}
+.hd2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.additional {
+  display: flex;
+  justify-content: 2fr 1fr;
+  gap: 40%;
+  border-radius: 12px;
+  border-width: 60%;
+  padding: 16px 16px;
+  width: 55%;
+  margin: auto;
+  background-color: rgb(67, 156, 55, 0.6);
+  margin-top: 50px;
+}
+.additional h1 {
+  font-size: 30px;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+.ulist {
+  font-size: 25px;
+  font-style: sans-serif;
+}
